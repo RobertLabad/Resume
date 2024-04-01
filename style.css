@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('o2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    transition: background-color 0.3s; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+.personal-info {
+    text-align: center;
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
+
+.personal-info h2 {
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s; 
+}
+
+.personal-info p {
+    margin: 5px 0;
+    transition: color 0.3s; 
+}
+
+.personal-info:hover p {
+    color: #ff5733; 
+}
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills ul li {
+    margin-bottom: 5px;
+    transition: color 0.3s; 
+}
+
+#skills ul li:hover {
+    color: #3cba54; 
+}
+
+#projects h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+#projects p {
+    margin: 5px 0;
+    transition: color 0.3s; 
+}
+
+#links-references a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s; 
+}
+
+#links-references a:hover {
+    text-decoration: underline;
+    color: #ffcc00; 
+}
+
+
+
+
+.personal-info {
+    text-align: center;
+    transition: transform 0.5s ease; 
+}
+
+.personal-info:hover {
+    transform: scale(1.3); 
+}
+
+.personal-info:hover p {
+    animation: dance 6s infinite alternate; 
+}
+
+@keyframes dance {
+    from {
+        transform: translateX(-7px); 
+    }
+    to {
+        transform: translateX(10px); 
+    }
+}
+
+
